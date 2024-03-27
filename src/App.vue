@@ -8,6 +8,7 @@
         <nav>
           <router-link to="/">Home</router-link>
           <router-link to="/about">About</router-link>
+          <router-link to="/pdfEdit">pdfEdit</router-link>
         </nav>
       </div>
         <div class="image-editor-wrap">
@@ -29,6 +30,7 @@
 
 .wrapper {
   height: 60px;
+  margin-bottom: 20px;
 }
 
 .image-editor-wrap {
