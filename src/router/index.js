@@ -25,6 +25,11 @@ const router = new VueRouter({
       path: '/pdfEdit',
       name: 'pdfEdit',
       component: () => import('../views/PdfEdit.vue')
+    },
+    {
+      path: '/searform',
+      name: 'searform',
+      component: () => import('../views/SearchForm.vue')
     }
   ]
 })
